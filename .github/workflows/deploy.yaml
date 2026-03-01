@@ -19,8 +19,8 @@ jobs:
       - name: 'Az CLI login'
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          client-id: 0c90bba4-bee6-42d1-8398-dedede1319d1 # DTS Platform Operations GitHub Actions ACR Publisher 2
+          tenant-id: 531ff96d-0ae9-462a-8d2d-bec7c0b42082 # HMCTS.NET
           allow-no-subscriptions: true
 
       - name: 'ACR Login'
